@@ -6,6 +6,4 @@ qweqw
 3
 3333
 test
-localenvriment
-1232
-213
+remote enviroment
