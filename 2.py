@@ -12,6 +12,10 @@ def test_123():
 def opo():
     return 123211
 
+@pytest.mark.usefixtures('1')
+def test_123():
+    print(223)
+
 if __name__ == "__main__":
     pytest.main(['-s'])
 
