@@ -7,7 +7,8 @@ from urllib import parse
 print(123)
 
 
-d1(1,2,3)
+def d1(k):
+    return k
 
 import requests
 

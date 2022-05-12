@@ -5,10 +5,13 @@ def func():
     print(1)
     yield 2
 
-@pytest.mark.usefixtures('func')
+@pytest.mark.usefixtures('1')
 def test_123():
-    print(2)
+    print(223)
+
+def opo():
+    return 12321
 
 if __name__ == "__main__":
-    pytest.main(['-sv'])
+    pytest.main(['-s'])
 
