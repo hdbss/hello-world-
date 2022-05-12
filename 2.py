@@ -4,11 +4,7 @@ from selenium.webdriver.common.by import By
 import rsa
 import os
 from urllib import parse
-import base64
-import time
-def d1(*args):
-    for i in args:
-        print(i)
+print(123)
 
 
 d1(1,2,3)
@@ -17,7 +13,7 @@ import requests
 
 import requests
 
-url_login = 'https://passport.teamsyun.com/papi/passport/login/pclogin'
+url_login = 'https://passport.teamsyun.com/papi/passport/login/applogin'
 
 url = "https://weapp.teamsyun.com/api/basicserver/menu/checkInitModule"
 cookie1 = "LOGIN_TYPE=pc_account; langType=zh_CN; e_cancleAutoLogin=1; JSESSIONID=57624FD6AECA4503CCE1B2B4909010D1; ETEAMSID=ec5f3983bd7ba254ef6c2a12499b12e2; ETEAMSID=ec5f3983bd7ba254ef6c2a12499b12e2"
