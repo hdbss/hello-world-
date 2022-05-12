@@ -24,3 +24,9 @@ d1 = d2.get(url=url, headers=headers)
 print(d1.text)
 d3 = d2.get(url="https://weapp.teamsyun.com/api/baseserver/queryEmpMenusContext")
 print(d3.text)
+class A:
+    def __init__(self):
+        self.a = 1
+     
+    def cc(self):
+        return 1
