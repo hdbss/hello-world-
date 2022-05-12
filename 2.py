@@ -26,3 +26,9 @@ d3 = d2.get(url="https://weapp.teamsyun.com/api/baseserver/queryEmpMenusContext"
 print(d3.text)
 def test():
     return 3
+class A:
+    def __init__(self):
+        self.a = 1
+
+    def cc(self):
+        return 1
