@@ -10,7 +10,7 @@ def test_123():
     print(223)
 
 def opo():
-    return 12321
+    return 123211
 
 if __name__ == "__main__":
     pytest.main(['-s'])
